@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body style="background-color: aqua;">
+    <h2>Registration Form</h2>
+    <form action="process_registration.php" method="get">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label> Date of Birth </label>
+      <input type="date" name="" required>
+      <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+        <label>Course;</label>
+        <select>  
+<option value=>Course</option>  
+<option value="html">Html</option>  
+<option value="css">Css</option>  
+<option value="javascript">Javascript</option>  
+<option value="video editing">video editing"</option>  
+<option value="graphics">graphics</option>  
+<option value="photoshop">photoshop</option>  
+</select>  
+<br>  <br>
+<label>Gender :</label>
+<input type="radio" name="male"/> Male
+<input type="radio" name="female"/> Female
+<input type="radio" name="other"/> Other  
+<br>  
+<br>  
+  
+<label>Phone:</label>  
+<input type="text" name="country code"  value="+92" size="2"/>   
+<input type="text" name="phone" size="10"/> <br>
+Address  
+<br>  
+<textarea cols="0" rows="5" value="address">  
+</textarea>  
+<br> <br>
+<input type="checkbox" name="cv">
+    <label>I have a cv</label><br>
+    <input type="checkbox" name="correct information">
+    <label> I have filled correct information</label><br/>
+<br> <br>  
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
